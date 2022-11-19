@@ -1,0 +1,105 @@
+.card-image {
+    position: relative;
+  }
+  .title-on-image {
+    /* margin: 2rem; */
+    background-color: red;
+    border-radius: 6px;
+    color: white;
+    padding: 0.3rem;
+  }
+  .text-on-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: calc(0.25rem - 1px);
+  }
+  .container-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: calc(0.25rem - 1px);
+    padding: min(0.5rem, 10vh);
+  }
+  .container-overlay-images {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: calc(0.25rem - 1px);
+    padding: min(0.5rem, 10vh);
+  }
+  .parent-card-position-relative {
+    position: relative !important;
+  }
+  .badge-nb-images {
+    /* position: absolute !important; */
+    top: 0 !important;
+    left: 0;
+  }
+  .badge-pill {
+    border-radius: 0.4rem !important;
+  }
+  /* @media screen and (min-width: 768px)
+{
+  .badge-nb-images {
+    position: absolute !important;
+    top: 125px !important;
+  }
+} */
+  /* @media screen and (max-width: 769px)
+{
+  .badge-nb-images {
+    position: absolute;
+    top: 105px;
+  }
+} */
+  @media only screen and (min-width: 599px) {
+    /* For tablets: */
+    h1 {
+      /* background-color: orange; */
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    h1 {
+      /* background-color: rgb(123, 255, 0); */
+    }
+  }
+  @media only screen and (min-width: 768px) {
+    /* For tablets: */
+    h1 {
+      /* background-color: red; */
+    }
+  }
+  @media only screen and (min-width: 833px) {
+    /* For tablets: */
+    h1 {
+      /* background-color: rgb(123, 179, 187); */
+    }
+  }
+  @media only screen and (min-width: 1024px) {
+    /* For tablets: */
+    h1 {
+      /* background-color: rgb(126, 105, 129); */
+    }
+  }
+  .card-body {
+    padding: 0 !important;
+  }
+  .full-width{
+    width: 100% !important;
+  }
+  .card-style {
+    border-radius: 10px;
+    overflow: hidden;
+    border-bottom: 3px solid red;
+    max-width: 25rem;
+    margin: auto;
+    /* border-bottom-left-radius: 90px; */
+    border-top-right-radius: 50px;
+  }
+  img{
+    width: -webkit-fill-available;
+  }
